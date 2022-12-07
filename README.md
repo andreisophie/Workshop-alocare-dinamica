@@ -15,7 +15,7 @@ by Andrei Mărunțiș
 
 ```c
 // Libraria care trebuie inclusa
-#include <stdio.h>
+#include <stdlib.h>
 
 // Functie care aloca dinamic o zona de memorie cu dimensiunea size
 void *malloc(size_t size);
@@ -29,7 +29,7 @@ void *realloc(void *ptr, size_t size);
 void free(void *ptr);
 ```
 
-## Exemplu folosite utilitar valgrind
+## Exemplu folosire utilitar valgrind
 
 Pentru a verifica "memory leak"-urile unui program `my_prog` putem rula utilitarul valgrind, astfel:
 
@@ -112,7 +112,7 @@ student$ valgrind --leak-check=full ./my_prog
 ==140== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
 ```
 
-Astfel, aflu ca zonad e memorie neeliberata a fost alocata la linia 5. Programul pe care l-am compilat este urmatorul:
+Astfel, aflu ca zona de memorie neeliberata a fost alocata la linia 5. Programul pe care l-am compilat este urmatorul:
 
 ```c
 #include <stdio.h>
