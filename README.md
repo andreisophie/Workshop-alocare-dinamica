@@ -2,6 +2,12 @@
 
 by Andrei Mărunțiș
 
+## Descarcarea codului
+
+Daca nu stii sa clonezi repo-ul si sa il descarci local, cea mai usoara metoda de a descarca codul este sub forma de arhiva:
+
+![Download repository as .zip archive](https://i.imgur.com/xbeA1Cz.jpg "Download repository as .zip archive")
+
 ## Subiecte abordate
 
 - Recapitulare pointeri
