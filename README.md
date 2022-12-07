@@ -1,4 +1,4 @@
-# Workshop alocare dinamica si Siruri
+# Workshop alocare dinamica (si Siruri)
 
 by Andrei Mărunțiș
 
