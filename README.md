@@ -14,8 +14,9 @@ Daca nu stii sa clonezi repo-ul si sa il descarci local, cea mai usoara metoda d
 - Vectori statici
 - Vectori alocati dinamici
 - Matrici alocate dinamic
-- Programare defensiva
+- Eliberarea memoriei alocate dinamic
 - Utilitarul `valgrind`
+- Programare defensiva
 
 ## Alocare dinamica: sintaxa in C
 
