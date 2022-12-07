@@ -83,7 +83,7 @@ student$ valgrind ./my_prog
 ==139== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 ```
 
-Pot adauga flag-ul `--leak-check=full` pentru a vedea detalii despre unde apare memry leak-ul:
+Pot adauga flag-ul `--leak-check=full` pentru a vedea detalii despre unde apare memory leak-ul:
 
 ```
 student$ valgrind --leak-check=full ./my_prog
